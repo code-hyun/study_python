@@ -1,4 +1,4 @@
-# python_crawling study
+# python_study
 <a name="readme-top"></a>
 ## python 기초
 
