@@ -1,6 +1,6 @@
 # python_crawling study
 <a name="readme-top"></a>
-## python 
+## python 기초
 
 ### 리스트 변수
 
@@ -97,10 +97,36 @@
 
 <br><br><br><br><br><br><br>
 
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------
+# Crawling
+## 크롤링이란?
+    방대한 데이터를 활용할 필요성이 커지고 그러한 정보를 쉽고 활용하기 쉽게 데이터를 수집하는 행위를 크롤링이라고 한다.
+
+### 크롤링의 핵심 코드
+    * 라이브러리 임포트
+    import requests // 웹페이지 가져오기 라이브러리
+    from bs4 import BeautifulSoup // 웹페이지 분석(크롤링) 라이브러리
+
+    * 웹페이지 가져오기
+    res = reqeuests.get("웹사이트 주소")
+
+    * 웹페이지 파싱하기
+    soup = BeautifulSoup(res.content, 'html.parser')
+
+    * 필요한 데이터 추출하기
+    mydata = soup.find('title')
+
+    * 추출한 데이터 활용하기
+    print(mydata.get_text())
+    
+
+
+
+
+
+
+
+
 
 
 
