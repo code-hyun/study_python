@@ -1,15 +1,12 @@
-import requests
-from bs4 import BeautifulSoup
-import openpyxl
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-import csv
+
 from selenium.common.exceptions import NoSuchElementException
 import json
-from flask import Flask
+
 
 
 # 필요한 라이브러리 및 모듈
