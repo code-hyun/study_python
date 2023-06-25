@@ -109,4 +109,4 @@ async def 명령어(ctx):
     await ctx.send(message)
     
 
-app.run('MTEyMTM4MjM5NDAxNzEwNzk5MA.Gs8k89.WoOvjVZDNCEIV82QoE3C77W5u-HLOQg2cVSIJM')
+app.run('디스코드 봇 토큰')
